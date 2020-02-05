@@ -1,0 +1,117 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>DestroY Software</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <script language=JavaScript>
+
+
+function MostrarFecha()
+   {
+   var nombres_dias = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday")
+   var nombres_meses = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "Dicember")
+
+   var fecha_actual = new Date()
+
+   dia_mes = fecha_actual.getDate()		//dia del mes
+   dia_semana = fecha_actual.getDay()		//dia de la semana
+   mes = fecha_actual.getMonth() + 1
+   anio = fecha_actual.getFullYear()
+
+   if (anio < 100)							//pasa el año a 4 digitos
+      anio = '19' + anio
+   else {
+      //var cadena_anio = new String(anio)
+      anio = '2005' 
+   }
+
+   //escribe en pagina
+   document.write("<p>" + nombres_dias[dia_semana] + ", " + nombres_meses[mes - 1] + " " + dia_mes + ", " + anio + "</p>")
+   }
+
+</script>
+</head>
+
+<body background="glabkgnd.jpg">
+<table width="754" border="1" cellspacing="0" bordercolor="#000000" bgcolor="#FFFFFF">
+  <tr> 
+    <td width="240"><a href="index.htm"><img src="logo.jpg" width="240" height="85" border="0"></a></td>
+    <td colspan="2"><div align="center"><a href="http://www.destroysoftware.da.ru"><img src="banner.gif" width="468" height="60" border="0"></a></div></td>
+  </tr>
+  <tr bgcolor="#003366"> 
+    <td><font color="#FFFFFF" size="2"><b> 
+      <script language=JavaScript>
+
+MostrarFecha()
+
+</script>
+      </b></font></td>
+    <td width="250"><div align="center"><a href="javascript:window.external.AddFavorite('http://www.destroysoftware.da.ru','DestroY Software')"><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif">Add 
+        to favorites</font></a></div></td>
+    <td width="250"><div align="center"><a href="mailto:cas_christian@hotmail.com"><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif">Contact 
+        DestroY</font></a></div></td>
+  </tr>
+  <tr bgcolor="#999999"> 
+    <td colspan="3"><div align="center"><strong><font size="2" face="Verdana, Arial, Helvetica, sans-serif">DestroY 
+        MediaPlay </font></strong></div></td>
+  </tr>
+  <tr> 
+    <td colspan="3" valign="top"> 
+      <p align="left"><font size="2" face="Arial, Helvetica, sans-serif">Finally 
+        I'm officialy announcing <strong>DestroY MediaPlay</strong>, my new media 
+        player :-)) Release date: 4th Qtr 2003 / 1st Qtr 2004.<br>
+        My intenttion is not to compete with other great media players neither 
+        with commercial ones.. but I want to try my best and try to get as near 
+        as possible to the &quot;big media players&quot;.<br>
+        This is the list of features I have planned for DestroY MediaPlay:</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif"><strong>Features:<br>
+        ************</strong></font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">- Playback of .avi, .asf, .asx, .rmi, .wav, .wma, .wax, 
+        .wmv, .ogg, .mpg, .mpeg, .m1v, .mp2, .mp3, .mpa, .mpe , .mid, .rmi , .qt, 
+        .aif, .aifc, .aiff, .mov .au, .snd<br>
+        - Audio CD Playback<br>
+        - Internet streaming (audio &amp; video)<br>
+        - Complete Playlist reading/saving including well known list formats<br>
+        - Add files by a button or by drag n' drop! <br>
+        - Playlist HTML generator!<br>
+        - Recursive file search engine<br>
+        - 3 different Playlist views! (Path/Name/ID3)<br>
+        - MP3/OGG/WAV and media information<br>
+        - ID3 v1, ID3 v2 and OGG tag reading, editing and saving<br>
+        - DirectX Sound Filters : Echo, Reverb, Flanger<br>
+        - 10 bands DirectX Equalizer<br>
+        - Sound Position Analog Meter<br>
+        - Sound Volume Analog Knob<br>
+        - Complete built-in sound mixer with sliders (volume &amp; record devices)<br>
+        - Volume and tracker sliders<br>
+        - Full skins support!!<br>
+        - Mini Internet browser<br>
+        - Auto updater<br>
+        - Complete system information (CPU, memory, Windows, Direct X, display 
+        settings, etc)<br>
+        - File repeat, editable media speed rate and other functions<br>
+        - Minimize to tray or taskbar<br>
+        - Ability to control it from the systray<br>
+        - Association to media files<br>
+        - Right click menu with several features<br>
+        - Choose to have it always on top or not<br>
+        - Snap to screen edges function<br>
+        - and much more!!...</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">DestroY MediaPlay 
+        will be <strong>FREEWARE!!</strong> Yes, you heard right! :D</font></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">Thanks! :-)<br>
+        </font><font size="2" face="Arial, Helvetica, sans-serif">DestroY</font></p>
+      </td>
+  </tr>
+  <tr bgcolor="#999999"> 
+    <td colspan="3"><div align="center"><a href="index.html"><font color="#000000" size="2" face="Verdana, Arial, Helvetica, sans-serif"><strong>Back 
+        to Home</strong></font></a></div>
+      <div align="center"></div></td>
+  </tr>
+  <tr bgcolor="#003366"> 
+    <td colspan="3"><div align="center"><font color="#FFFFFF" size="2" face="Verdana, Arial, Helvetica, sans-serif">2003-2005 
+        - DestroY Software</font></div></td>
+  </tr>
+</table>
+</body>
+</html>
